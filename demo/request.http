@@ -1,0 +1,11 @@
+GET http://localhost:8081/transactions
+
+###
+
+POST http://localhost:8081/transactions
+Content-Type: application/json
+
+{
+  "category": "food",
+  "amount": 2500
+}
